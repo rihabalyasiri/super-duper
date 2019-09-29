@@ -1,0 +1,132 @@
+body {
+    margin:0;
+    padding: 0;
+    font-size: 62.5%;
+
+}
+
+header {
+    background: #333;
+    width:100%;
+    height: 100vh; 
+}
+
+span {
+
+    color:white;
+    font-size: 2rem;
+    width:10px;
+    display: block;
+    padding: 15px;
+    letter-spacing: 5px;
+}
+/*  height nicht nötig wegen dem inhalt des divs*/
+div {
+    height: 45%;
+    width: 20%;
+    min-width: 250px;
+    background: linear-gradient(to top right,#3dc8d5,#8507e1);
+    margin: 0 auto;
+    border-radius: 5px;
+    padding:10px 20px;
+    margin-top: 10%;
+
+}
+/* abstand nach unten , h1 margin damit sich das div in die mitte drückt (px als festen wert beim kleiner werden bleiben es immer feste px)*/
+
+
+div:hover {
+    background: linear-gradient(to top right,#8507e1,#3dc8d5);
+}
+
+h1 {
+    color:white;
+    font-size: 5rem;
+    font-weight: 300;
+    font-family: ’Maven Pro’ , ‘Gilda Display’,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div p {
+    color:white;
+    padding-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 400px;
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+
+    
+
+}
+
+li {
+    list-style: none;
+    padding-top: 20px;
+    color:rgb(216, 205, 205);
+    font-size: 20px;
+
+}
+
+li:hover {
+    color: white;
+}
+
+article h2 {
+    font-size: 6rem;
+    padding-top: 100px;
+
+}
+
+
+
+img {
+    width:100%;
+    border-radius: 10px;
+
+}
+
+article {
+    background: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg) no-repeat top left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+article p {
+    width:30%;
+    min-width: 400px;
+    line-height: 1.7;
+    margin-bottom: 100px;
+    color:gray;
+    word-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+section {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    display: block;
+
+
+
+}
+
+section h2 {
+    font-size: 4rem;
+
+}
+
+section p {
+    font-size: 1.8rem;
+}
+
+
+
